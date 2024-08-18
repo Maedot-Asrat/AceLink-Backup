@@ -1,0 +1,146 @@
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  margin-left: 20px;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #e5e7eb;
+}
+
+.welcome-section {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.join-button {
+  background-color: #1d4ed8;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.classes-section {
+  margin-bottom: 20px;
+}
+
+.classes {
+  display: flex;
+  gap: 20px;
+}
+
+.class-card {
+  flex-grow: 1;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: white;
+  position: relative;
+}
+
+.gradient-blue {
+  background: linear-gradient(135deg, #395BA7, #597CB4);
+}
+
+.gradient-purple {
+  background: linear-gradient(135deg, #A08CBC,  #EE8A92);
+}
+
+.gradient-red {
+  background: linear-gradient(135deg, #A08CBC ,  #EE8A92);
+}
+
+.progress-bar {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  height: 10px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+.progress {
+  background-color: white;
+  height: 100%;
+  border-radius: 4px;
+}
+
+.lessons-section {
+  margin-bottom: 20px;
+}
+
+.lessons-table {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.table-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.head-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #020305;
+}
+
+.table-cell {
+  width: 25%;
+  color: #374151;
+}
+
+.right-sidebar {
+  width: 250px;
+  background-color: #f9fafb;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.calendar {
+  margin-top: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.reminders {
+  margin-top: 20px;
+}
+
+.reminder-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  color: #374151;
+}
+
+.reminder-icon {
+  margin-right: 17px;
+  color: #1d4ed8;
+}
